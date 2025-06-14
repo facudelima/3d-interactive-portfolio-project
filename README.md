@@ -75,7 +75,8 @@ The portfolio website is built using the following tools and technologies:
 
 ## 🚀 Deployment
 
-This project is deployed using **Vercel** for its blazing-fast performance and ease of use. You can view the live site [here] (coming soon).
+Coming soon! 🚧
+This project is deployed using **Vercel** for its blazing-fast performance and ease of use. You can view the live site [here] ().
 
 ### Setting up Resend API on Vercel
 
