@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 import { DiMongodb, DiNginx, DiNpm, DiPostgresql, DiVim } from "react-icons/di";
 import {
   FaAws,
@@ -244,10 +245,12 @@ function Page() {
           >
             <div className="flex flex-row lg:flex-col items-center">
               <div className="w-[100px] h-[100px] md:w-[150px] md:h-[150px] lg:w-[200px] lg:h-[200px] bg-zinc-800 rounded-xl lg:mb-5 overflow-hidden">
-                <img
+                <Image
                   className="w-full h-full object-cover"
                   alt="me"
                   src="/assets/itachi.gif"
+                  width={200}
+                  height={200}
                 />
               </div>
               <div className="flex flex-col gap-3 lg:items-center ml-10 md:ml-20 lg:ml-0">
@@ -287,7 +290,7 @@ function Page() {
           >
             <h1 className="text-3xl mb-10 lg:md-20">About me</h1>
             <p className="mb-10 text-roboto">
-            Hey there! I'm Facundo De Lima, an Integration Developer with 2 years of experience in the streaming industry. I specialize in developing and managing authentication and authorization integrations for companies like Paramount, Universal, HBO Max, and DirecTV. Skilled in Node.js, React, MongoDB, TypeScript, Git, Tailwind, and more, I’m passionate about delivering robust solutions through teamwork and clear communication. I've collaborated with international clients, providing hands-on support in coding, debugging, testing, and documenting end-to-end integration services. I bring strong analytical skills, effective communication, and a team-oriented mindset to drive process improvements and deliver results.
+            Hey there! I&apos;m Facundo De Lima, an Integration Developer with 2 years of experience in the streaming industry. I specialize in developing and managing authentication and authorization integrations for companies like Paramount, Universal, HBO Max, and DirecTV. Skilled in Node.js, React, MongoDB, TypeScript, Git, Tailwind, and more, I&apos;m passionate about delivering robust solutions through teamwork and clear communication. I&apos;ve collaborated with international clients, providing hands-on support in coding, debugging, testing, and documenting end-to-end integration services. I bring strong analytical skills, effective communication, and a team-oriented mindset to drive process improvements and deliver results.
             </p>
             <p className="mb-10">
               When I&apos;m not coding, you can find me playing video games, watching anime or series, exploring new technologies, or sipping coffee while brainstorming my next project.
